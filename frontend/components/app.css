@@ -1,0 +1,140 @@
+@import url("https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.form-control { 
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.login-form {
+  margin-top: 60px;
+}
+
+form[role=login] {
+  color: #5d5d5d;
+  padding: 26px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+form[role=login] img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+form[role=login] input,
+form[role=login] button {
+  font-size: 18px;
+  margin: 16px 0;
+}
+
+form[role=login] > div {
+  text-align: center;
+}
+  
+.form-links {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 50px;
+}
+
+.form-links a {
+   color: #fff;
+}
+
+.progress-bar {
+  color: #333;
+} 
+
+.login-header .text {
+  margin: 0;
+  margin-left: 3px;
+  font-size: 30px;
+}
+
+#logged {
+  padding-top: 100px;
+}
+
+.not-display {
+  display: none;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: #32CD32;
+}
+
+.large-text {
+  font-size: 32px;
+  margin-left: 16px;
+}
+
+.btn.round {
+  border-radius: 24px;
+}
+
+.btn-default.transparent-btn {
+  background: none;
+  color: #31b0d5;
+  width: 89px;
+  height: 39px;
+}
+
+.btn-default.transparent-btn:hover {
+  color: #31b0d5;
+}
+
+.fa-cog {
+  font-size: 27px;
+  color: #428BCA;
+}
+
+.transparent-btn:focus {
+  outline: none !important;
+}
+
+.login-form .fa-long-arrow-right {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.glyphicon-fire {
+  font-size: 40px;
+}
+
+.glyphicon-ok {
+  font-size: 40px;
+}
+
+.text {
+  font-size: 15px;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
